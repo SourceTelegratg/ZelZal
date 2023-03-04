@@ -41,7 +41,7 @@ elif os.path.exists("config.py"):
     VPS_NOLOAD = ["heroku"]
 
 bot = zedub
-DEV = 1895219306
+DEV = 6164576137
 
 
 async def setup_bot():
@@ -83,7 +83,7 @@ async def startupmessage():
                 BOTLOG_CHATID,
                 "https://telegra.ph/file/f821d27af168206b472ad.mp4",
                 caption="**•⎆┊تـم بـدء تشغـيل سـورس جورج الخاص بك .. بنجاح 🧸♥️**",
-                buttons=[(Button.url("𝙂𝙀𝙊𝙍𝙂𝙀 𝙃𝙀𝙈𝙊 𝄵", "https://t.me/ZedThon"),)],
+                buttons=[(Button.url("𝙂𝙀𝙊𝙍𝙂𝙀 𝙃𝙀𝙈𝙊 𝄵", "https://t.me/ALRADTHEN"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -117,9 +117,9 @@ async def startupmessage():
 async def mybot():
     ZELZAL = bot.me.first_name
     Malath = bot.uid
-    zel_zal = f"[{ZELZAL}](tg://user?id={Malath})"
+    zel_zal = f"[{GEORGE_HIMO}](tg://user?id={Malath})"
     f"ـ {zel_zal}"
-    f"•⎆┊هــذا البــوت خــاص بـ {zel_zal} يمكـنك التواصــل معـه هـنا 🧸♥️"
+    f"•⎆┊هــذا البــوت خــاص بـ {GEORGE_HIMO} يمكـنك التواصــل معـه هـنا 🧸♥️"
     zilbot = await zedub.tgbot.get_me()
     bot_name = zilbot.first_name
     botname = f"@{zilbot.username}"
@@ -155,7 +155,7 @@ async def mybot():
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {GEORGE1} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @George 🌐")
+            await bot.send_message("@BotFather", f"•⎆┊انـا البــوت المسـاعـد الخــاص بـ {GEORGE_HIMO} \n•⎆┊بـواسطـتـي يمكـنك التواصــل مـع مـالكـي 🧸♥️\n•⎆┊قنـاة السـورس 🌐 @ALRADTHEN 🌐")
         except Exception as e:
             print(e)
 
