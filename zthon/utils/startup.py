@@ -1,6 +1,6 @@
 # ZedThon - zthon
 # Copyright (C) 2022 ZedThon . All Rights Reserved
-#< https://t.me/ZedThon >
+#< https://t.me/ALRADTHEN >
 # This file is a part of < https://github.com/Telegratg/ZelZal/ >
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/Telegratg/ZelZal/blob/master/LICENSE/>.
