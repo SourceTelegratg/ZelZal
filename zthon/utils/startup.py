@@ -1,9 +1,9 @@
 # ZedThon - zthon
 # Copyright (C) 2022 ZedThon . All Rights Reserved
 #< https://t.me/ALRADTHEN >
-# This file is a part of < https://github.com/Telegratg/ZelZal/ >
+# This file is a part of < https://github.com/SourceTelegratg/ZelZal/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/Telegratg/ZelZal/blob/master/LICENSE/>.
+# <https://www.github.com/SourceTelegratg/ZelZal/blob/master/LICENSE/>.
 
 import asyncio
 import glob
@@ -131,7 +131,7 @@ async def mybot():
             await asyncio.sleep(1)
             await bot.send_message("@BotFather", botname)
             await asyncio.sleep(1)
-            await bot.send_message("@BotFather", "ZThon")
+            await bot.send_message("@BotFather", "telegratg")
             await asyncio.sleep(3)
             await bot.send_message("@BotFather", "/setname")
             await asyncio.sleep(1)
