@@ -1,9 +1,9 @@
 # Zed-Thon - ZelZal
 # Copyright (C) 2022 Zedthon . All Rights Reserved
 #
-# This file is a part of < https://github.com/Zed-Thon/ZelZal/ >
+# This file is a part of < https://github.com/SourceTelegratg/ZelZal/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/Zed-Thon/ZelZal/blob/main/LICENSE/>.
+# <https://www.github.com/SourceTelegratg/ZelZal/blob/main/LICENSE/>.
 
 """
 ZThon - ZelZal
@@ -36,9 +36,9 @@ from . import spamwatch
 
 plugin_category = "العروض"
 LOGS = logging.getLogger(__name__)
-ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "•⎚• مـعلومـات المسـتخـدم مـن بـوت زدثــون"
+ZED_TEXT = gvarstatus("CUSTOM_ALIVE_TEXT") or "•⎚• مـعلومـات المسـتخـدم مـن بـوت الرادثن"
 ZEDM = gvarstatus("CUSTOM_ALIVE_EMOJI") or "⎉ "
-ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or "⋆─┄─┄─┄─ ᶻᵗʰᵒᶰ ─┄─┄─┄─⋆"
+ZEDF = gvarstatus("CUSTOM_ALIVE_FONT") or "⋆─┄─┄─┄─ ALRADTHEN ─┄─┄─┄─⋆"
 
 
 
