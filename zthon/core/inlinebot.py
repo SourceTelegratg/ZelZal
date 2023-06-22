@@ -314,10 +314,10 @@ async def inline_handler(event):  # sourcery no-metrics
     else:
         buttons = [
             (
-                Button.url("قنـاة السـورس", "https://t.me/ZedThon"),
+                Button.url("قنـاة السـورس", "https://t.me/ALRADTHEN"),
                 Button.url(
                     "مطـور السـورس",
-                    "https://t.me/zzzzl1l",
+                    "https://t.me/mndmhmm",
                 ),
             )
         ]
@@ -326,12 +326,12 @@ async def inline_handler(event):  # sourcery no-metrics
             url=ZEDLOGO, size=0, mime_type="image/jpeg", attributes=[]
         )
         text, msg_entities = await event.client._parse_message_text(
-            "𝗗𝗲𝗽𝗹𝗼𝘆 𝘆𝗼𝘂𝗿 𝗼𝘄𝗻 𝗭𝗧𝗵𝗼𝗻.", "md"
+            "𝗗𝗲𝗽𝗹𝗼𝘆 𝘆𝗼𝘂𝗿 𝗼𝘄𝗻 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙏𝙂.", "md"
         )
         result = types.InputBotInlineResult(
             id=str(uuid4()),
             type="photo",
-            title="𝗭𝗧𝗵𝗼𝗻 𓅛",
+            title="𝘼𝙇𝙍𝘼𝘿𝙏𝙃𝙀𝙉 𓅛",
             description="روابـط التنصـيب",
             url="https://t.me/ZedThon/105",
             thumb=photo,
@@ -341,3 +341,4 @@ async def inline_handler(event):  # sourcery no-metrics
             ),
         )
         await event.answer([result] if result else None)
+
